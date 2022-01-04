@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./lib",
+    "sourceRoot": "./src/",
+    "rootDir": "./src/",
+    "types": [
+      "@types/node",
+      "reflect-metadata",
+      "@citizenfx/client"
+    ],
+    "moduleResolution": "Node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
